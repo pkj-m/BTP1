@@ -1,0 +1,17 @@
+% Chapter Template
+
+\chapter{Conclusion} % Main chapter title
+
+\label{Chapter 4} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter 4. \emph{Conclusion}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%---------------------------------------------------------------------------------------
+
+The work done for the Bachelor Thesis Project - I this semester is part of a larger project aimed at developing a scheduling system capable of automatically scheduling multiple kernels on CUDA streams with the appropriate optimizations done in the form of kernel fusion and thread and block coarsening. The decisions regarding scheduling and optimizations done will be taken by the system on the basis of the available system resources.
+
+The work done this semester focused on the first part of the project which included implementing a parameterized pass that can coarsen computational kernels pertaining to CNN pipelines with ease. In addition, we studied the behavior of convolution kernels when coarsened to different extents to understand the trends in performance achieved by these kernel variants under different sets of hyper-parameters.
+
+The upcoming objectives would be to consider multiple pipelines, and while dispatching independent kernels simultaneously, design a heuristic for deciding the individual coarsening parameters for each kernel that would result in efficiently utilizing the hardware resources.
